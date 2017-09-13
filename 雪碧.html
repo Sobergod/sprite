@@ -1,0 +1,100 @@
+<html>
+<head>
+<!--准备一个空白的HTML页面，同时完成css reset样式 -->
+<meta charset="utf-8" />
+<!--补充完整的样式-->
+<style>
+ul,li,a,i {
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration:none;
+    font-size:14px;
+    font-weight:400;
+}
+
+.cat {
+    width:100px;
+    text-align:center;
+    box-shadow:0 0 3px #444;
+    border:1px solid #bbb;
+}
+.cat ul li {
+    display:block;
+    height:30px;
+    line-height:30px;
+    vertical-align:middle;
+    background:#FF6905;
+    list-style:none;
+}
+.cat ul li i {
+    float:left;
+    width:30px;
+    height:24px;
+    margin:5px 0 0 5px ;
+    background-image:url(http://img.mukewang.com/539a950e00015ba500710200.jpg);
+    
+}
+.cat ul li a{
+    color:#fff;
+    margin-right:5px;
+    overflow:hidden;
+}
+.cat ul li:hover {
+    background:#F94A14;
+}
+.cat ul li a:hover{
+    text-decoration:underline;
+}
+.cat1 { background-position:;}
+.cat2 { background-position:0 -24px;}
+.cat3 { background-position:0 -48px;}
+.cat4 { background-position:0 -72px;}
+.cat5 { background-position:0 -96px;}
+.cat6 { background-position:0 -118px;}
+.cat7 { background-position:0 -142px;}
+.cat8 { background-position:0 -168px;}
+</style>
+</head>
+<body>
+<!--添加列表的结构-->
+<div class="cat">
+    <ul>
+        <li>
+            <i class="cat1"></i>
+            <a href="#">服装内衣</a>
+        </li>
+        <li>
+            <i class="cat2"></i>
+            <a href="#">鞋包配件</a>
+        </li>
+        <li>
+            <i class="cat3"></i>
+            <a href="#">运动户外</a>
+        </li>
+        <li>
+            <i class="cat4"></i>
+            <a href="#">珠宝手表</a>
+        </li>
+        <li>
+            <i class="cat5"></i>
+            <a href="#">手机数码</a>
+        </li>
+        <li>
+            <i class="cat6"></i>
+            <a href="#">家电办公</a>
+        </li>
+        <li>
+            <i class="cat7"></i>
+            <a href="#">护肤彩妆</a>
+        </li>
+        <li>
+            <i class="cat8"></i>
+            <a href="#">母婴用品</a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
